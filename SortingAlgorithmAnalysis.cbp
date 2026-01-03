@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SortingAlgorithmAnalysis" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SortingAlgorithmAnalysis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SortingAlgorithmAnalysis" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-lpsapi" />
+			<Add library="psapi" />
+		</Linker>
+		<Unit filename="include/benchmark.h" />
+		<Unit filename="include/data_generator.h" />
+		<Unit filename="include/external_sort.h" />
+		<Unit filename="include/file_utils.h" />
+		<Unit filename="include/memory_monitor.h" />
+		<Unit filename="include/merge_sort.h" />
+		<Unit filename="include/quick_sort.h" />
+		<Unit filename="include/radix_sort.h" />
+		<Unit filename="include/shell_sort.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/benchmark.cpp" />
+		<Unit filename="src/data_generator.cpp" />
+		<Unit filename="src/external_sort.cpp" />
+		<Unit filename="src/file_utils.cpp" />
+		<Unit filename="src/memory_monitor.cpp" />
+		<Unit filename="src/merge_sort.cpp" />
+		<Unit filename="src/quick_sort.cpp" />
+		<Unit filename="src/radix_sort.cpp" />
+		<Unit filename="src/shell_sort.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,164 @@
+# depslib dependency file v1.0
+1767085510 source:c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\src\external_sort.cpp
+	"external_sort.h"
+	"data_generator.h"
+	"file_utils.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<queue>
+	<vector>
+	<memory>
+	<sys/stat.h>
+	<cstdlib>
+	<ctime>
+	<direct.h>
+	<unistd.h>
+
+1767163587 c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\include\external_sort.h
+	<string>
+	<cstdint>
+	<vector>
+
+1767163483 source:c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\src\merge_sort.cpp
+	"merge_sort.h"
+	"data_generator.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<vector>
+
+1767163568 c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\include\merge_sort.h
+	<vector>
+	<string>
+	<functional>
+
+1767164225 source:c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\src\quick_sort.cpp
+	"quick_sort.h"
+	"data_generator.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<stack>
+
+1767163562 c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\include\quick_sort.h
+	<vector>
+	<string>
+	<functional>
+	<stack>
+
+1767163466 source:c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\src\radix_sort.cpp
+	"radix_sort.h"
+	"data_generator.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<vector>
+	<string>
+
+1767163557 c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\include\radix_sort.h
+	<vector>
+	<string>
+
+1767163490 source:c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\src\memory_monitor.cpp
+	"memory_monitor.h"
+	<windows.h>
+	<psapi.h>
+	<iostream>
+	<sstream>
+	<iomanip>
+	<vector>
+	<algorithm>
+
+1767163575 c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\include\memory_monitor.h
+	<string>
+
+1767163496 source:c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\src\file_utils.cpp
+	"file_utils.h"
+	<fstream>
+	<iostream>
+	<sys/stat.h>
+	<dirent.h>
+	<cstring>
+	<windows.h>
+	<direct.h>
+	<unistd.h>
+
+1767163581 c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\include\file_utils.h
+	<string>
+	<vector>
+	<cstdint>
+
+1767163593 c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\include\data_generator.h
+	<string>
+	<vector>
+	<cstdint>
+	<functional>
+	<random>
+
+1767163457 source:c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\src\shell_sort.cpp
+	"shell_sort.h"
+	"data_generator.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<vector>
+
+1767163552 c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\include\shell_sort.h
+	<vector>
+	<string>
+	<functional>
+
+1767162813 source:c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\main.cpp
+	"data_generator.h"
+	"shell_sort.h"
+	"quick_sort.h"
+	"merge_sort.h"
+	"radix_sort.h"
+	"external_sort.h"
+	"benchmark.h"
+	"memory_monitor.h"
+	"file_utils.h"
+	<iostream>
+	<vector>
+	<algorithm>
+	<chrono>
+	<iomanip>
+	<fstream>
+
+1767163599 c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\include\benchmark.h
+	<string>
+	<chrono>
+	<functional>
+	<vector>
+	<map>
+
+1767162827 source:c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\src\data_generator.cpp
+	"data_generator.h"
+	<fstream>
+	<iostream>
+	<random>
+	<algorithm>
+	<cmath>
+	<sstream>
+	<iomanip>
+	<chrono>
+	<cfloat>
+
+1767162939 source:c:\users\a\desktop\my things\code\c++作业\sortingalgorithmanalysis\src\benchmark.cpp
+	"../include/benchmark.h"
+	"../include/data_generator.h"
+	"../include/shell_sort.h"
+	"../include/quick_sort.h"
+	"../include/merge_sort.h"
+	"../include/radix_sort.h"
+	"../include/external_sort.h"
+	"../include/memory_monitor.h"
+	"../include/file_utils.h"
+	<iostream>
+	<fstream>
+	<iomanip>
+	<sstream>
+	<algorithm>
+	<chrono>
+
